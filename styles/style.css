@@ -3,3 +3,55 @@
 *{
     font-family: 'Work Sans', sans-serif;
 }
+.btn-primary{
+    border-radius:4px;
+background: #FF900E;
+border: none;
+padding: 20px 25px;
+color: white;
+}
+header{
+    background-color: rgba(255, 144, 14, 0.10); 
+    padding: 50px 150px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav> ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+   font-weight: 500px;
+   font-size: 1rem;
+}
+nav li a{
+    text-decoration: none;
+    color: #424242;
+}
+.nav-tittle{
+
+    font-size: 3rem;
+    font-weight:700 ;
+}
+/* end of nav bar */
+/* start here banner section */
+.banner-tittle{
+    font-size: 4rem;
+    font-weight: 700;
+   
+}
+.banner-description{
+    font-size: 1rem;
+    font-weight:400 ;
+    color: #727272;
+}
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin:0 auto;
+}
+.btn
